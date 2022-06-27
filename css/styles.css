@@ -205,6 +205,8 @@ body {
   text-transform: uppercase;
 }
 
+/* -------- modal ------------ */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -280,8 +282,6 @@ body {
 /* Modal */
 
 .modal-form {
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .modal-form-title {
@@ -559,8 +559,6 @@ body {
 
 .social {
   display: flex;
-  /* padding-left: 32px;
-  padding-right: 32px; */
   gap: 10px;
 }
 

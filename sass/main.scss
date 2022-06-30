@@ -2,7 +2,7 @@
 @import './base/body';
 @import './base/reset';
 @import './utils/utils';
-
+@import './utils/placeholders';
 @import './components/container';
 @import './base/buttons';
 @import './layout/header';
@@ -17,4 +17,3 @@
 
 @import './layout/modal';
 @import './layout/btn';
-@import './base/title';

@@ -29,6 +29,37 @@ body {
   margin: -1px;
 }
 
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.clients__title, .team__title, .we__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.modal-button, .footer__btn {
+  display: block;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -1023,22 +1054,4 @@ body {
 
 .button--hero:focus, .button--hero:hover {
   background-color: #188ce8;
-}
-
-.portfolio-list-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-.we__title, .team__title, .clients__title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
 }/*# sourceMappingURL=main.css.map */

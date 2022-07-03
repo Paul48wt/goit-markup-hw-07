@@ -46,11 +46,12 @@
 .address__mail {
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
-  // &:hover,
-  // &:focus {
-  //   color: $accentColor;
-  // }
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 
   transition: color $timeTransition $timeCubic;
 }
@@ -58,11 +59,12 @@
 .address__tel {
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
-  // &:hover,
-  // :focus {
-  //   color: $accentColor;
-  // }
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 
   transition: color $timeTransition $timeCubic;
 }
@@ -101,7 +103,7 @@
   transition: background-color $timeTransition $timeCubic;
 }
 
-.footer-form {
+.subscribe-group {
   margin-left: auto;
 }
 
@@ -131,6 +133,13 @@
 
   border-radius: 4px;
   margin-right: 12px;
+
+  &:focus {
+    border-color: $accentColor;
+    outline: $accentColor;
+  }
+
+  transition: border-color $timeTransition $timeCubic;
 }
 
 .email__label {
@@ -142,6 +151,6 @@
   }
 }
 
-.subscribe-group {
+.footer-form {
   display: inline-flex;
 }
